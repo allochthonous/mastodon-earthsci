@@ -1,7 +1,7 @@
 document.getElementById("all_button").addEventListener("click", selectAll);
 document.getElementById("none_button").addEventListener("click", selectNone);
 document.getElementById("selected_button").addEventListener("click", createSelectedCsv);
-
+document.getElementById("all_csv_button").addEventListener("click", createAllCsv);
 
 
 $(document).ready(function() {
@@ -30,19 +30,19 @@ function printSociologistsOnWP(data) {
       checkbox.name = "selected_sociologists";
       checkbox.value = sociologist["account"];
       checkbox.id = "sociologist" + i;
-      var label = document.createElement('label');
-      label.htmlFor = "id";
-      label.appendChild(document.createTextNode(sociologist["account"] + " | " + sociologist["name"] + " (" + sociologist["gang"] + ")  "));
       var profilelink = document.createElement('a');
       profilelink.href = sociologist["link"];
       profilelink.target = "_blank";
       const linkname = document.createTextNode(sociologist["link"]);
       profilelink.appendChild(linkname);
+      var label = document.createElement('label');
+      label.htmlFor = "id";
+      label.appendChild(document.createTextNode(" | " + sociologist["name"] + " | " + sociologist["gang"]));
       const linebreak = document.createElement('br');
 
       document.getElementById("sociologists_list").appendChild(checkbox);
-      document.getElementById("sociologists_list").appendChild(label);
       document.getElementById("sociologists_list").appendChild(profilelink);
+      document.getElementById("sociologists_list").appendChild(label);
       document.getElementById("sociologists_list").appendChild(linebreak);
 
     } else {
@@ -110,7 +110,7 @@ function createSelectedCsv() {
     var encodedUri = encodeURI(csvFile);
     var link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "my_HPS_list.csv");
+    link.setAttribute("download", "my_EarthSci_list.csv");
     document.body.appendChild(link); // Required for FF
 
     link.click(); // This will download the data file named "my_HPS_list.csv".
