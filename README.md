@@ -13,9 +13,6 @@ Feel free to fork further though you might benefit from forking closer to the so
 the csv file is stored in /resources/.
 Any file with the columns: `account`,`name`,`url` will do.
 
-### tootformat.html
-The page tootformat.html renders all accounts from the csv as ”account (name)”. This offers you a more readable format which you can copy to your posts in Mastodon.
-
 ## License
 
 The repository can be used under GNU General Public License v3, except the /resources/hpsers.csv file, which can only be used with explicit permission by the authors.
