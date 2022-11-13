@@ -1,14 +1,10 @@
-# History and/or Philosophy of Science (HPS) scholars hanging out on Mastodon
+#  Earth Science people hanging out on Mastodon
 
-This repository (forked from our [STS neighbours (hey!)](https://jwyg.github.io/mastodon-sts/), itself forked from a [list of sociologists](https://www.perspektivbrocken.org/en/2022/10/28/sociologists-on-mastodon-a-list/) {talk about knowledge sharing, ei!}) has a list of self-included History and/or Philosophy of Science (HPS) researchers, broadly construed, with a Mastodon account. Same as in the original repo, you can create a csv-file that can be uploaded in your mastodon settings, in order to follow every account from the list.
+This repository is a fork is of a [fork](https://github.com/oliviodare/mastodon-hps) of a [fork](https://jwyg.github.io/mastodon-sts/) of this [list of sociologists](https://www.perspektivbrocken.org/en/2022/10/28/sociologists-on-mastodon-a-list/). Any weirdness is due to my inept tweaking. 
 
-Head to [https://oliviodare.github.io/mastodon-hps/](https://oliviodare.github.io/mastodon-hps/) for the finished product.
+The resulting [website](https://all-geo.org/mastodon-earthsci/) allows you to create a csv-file that can be uploaded in your mastodon settings, in order to follow every account on the list, or a selected subset.
 
-## Can I use this for my discipline/peer group?
-
-Yes, basically you just have to fork the repo. There are two files that you will need to change. The Text in index.html and the accounts that are stored in resources/hpsers.csv. Please keep the name of this file (or change it in assets/js/createcsv.js, too).
-
-You can publish your web app directly from the repository. For this, go to “Settings” and then choose “pages” in the left menu.
+Feel free to fork further though you might benefit from forking closer to the source (where they also publish to a Github page). There are two files that you will need to change. The Text in index.html and the accounts that are stored in resources/earthodons.csv (you can change the filename in assets/js/createcsv.js, too).
 
 ## Documentation
 
