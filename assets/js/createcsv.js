@@ -33,7 +33,7 @@ function printSociologistsOnWP(data) {
       var profilelink = document.createElement('a');
       profilelink.href = sociologist["link"];
       profilelink.target = "_blank";
-      const linkname = document.createTextNode(sociologist["link"]);
+      const linkname = document.createTextNode(" "+sociologist["account"]);
       profilelink.appendChild(linkname);
       var label = document.createElement('label');
       label.htmlFor = "id";
