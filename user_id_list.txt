@@ -7,7 +7,7 @@ alaskauma	ohai.social	109332701642787465
 Alchemist_Final	ioc.exchange	109373769032260518
 alcootatooter	sauropods.win	109307173074902217
 aletamosquito	mastodon.lol	109366567876802449
-allochthonous	mastodon.social	109235306798729784
+allochthonous	scicomm.xyz	109875120489481350
 Altadena_Prepare	scicomm.xyz	109294068036424401
 anamitra	fediscience.org	109301537443703402
 andbaker	aus.social	109289319932992338
@@ -132,7 +132,7 @@ hereidk	fediscience.org	109272171860461282
 hester	mindly.social	109316739311577905
 hstenner	qoto.org	-1
 HydroLejo	scicomm.xyz	109289413728313812
-hypocentre@vivaldi.net	mastodon.social	109744398942491277
+hypocentre	social.vivaldi.net	109658509022297861
 iceseismic	mastodon.nz	109288648047798183
 Idoubtit	mstdn.social	109287404215610110
 IMPlumm	sciencemastodon.com	109343718180656781
